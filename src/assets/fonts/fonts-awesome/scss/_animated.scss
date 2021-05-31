@@ -1,12 +1,12 @@
 // Spinning Icons
 // --------------------------
 
-.#{$fa-css-prefix}-spin {
+.#{$fa-css-prefix}_spin {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
 }
 
-.#{$fa-css-prefix}-pulse {
+.#{$fa-css-prefix}_pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
           animation: fa-spin 1s infinite steps(8);
 }

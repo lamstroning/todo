@@ -1,5 +1,6 @@
 import './style/component/_app.scss';
 import RightPanel from './components/RightPanel/RightPanel';
+import PageBody from './components/PageBody/PageBody';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
             <RightPanel/>
           </div>
           <div className='page__body'>
-            
+              <PageBody/>
           </div>
         </div>
   );

@@ -9,3 +9,17 @@ body {
 * {
   box-sizing: border-box;
 }
+
+input {
+  padding: 0;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

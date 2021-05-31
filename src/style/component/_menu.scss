@@ -1,20 +1,17 @@
 .menu {
-  height: 100%;
-  border-right: 1px solid red;
-
   &__item {
+
   }
 
   &__title {
-    border: none;
     width: 100%;
-    background-color: transparent;
-    cursor: pointer;
     font-size: 20px;
+    padding: 10px;
     text-align: left;
+    border: none;
 
     &:hover {
-      background-color: red;
+      background-color: var(--color-hover-grey);
     }
   }
 
