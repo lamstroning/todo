@@ -1,0 +1,29 @@
+.menu {
+  height: 100%;
+  border-right: 1px solid red;
+
+  &__item {
+  }
+
+  &__title {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+
+  &__body {
+    display: none;
+    background-color: #dddddd;
+
+    &_show {
+      display: block;
+    }
+  }
+}

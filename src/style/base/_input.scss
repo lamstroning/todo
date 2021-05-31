@@ -1,0 +1,23 @@
+.input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  padding: 8px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.input-container {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  padding: 8px;
+
+  &__field {
+
+  }
+
+  &__icon {
+
+  }
+}
