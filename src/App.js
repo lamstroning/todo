@@ -8,9 +8,7 @@ function App() {
           <div className='page__panel'>
             <RightPanel/>
           </div>
-          <div className='page__body'>
-              <PageBody/>
-          </div>
+            <PageBody/>
         </div>
   );
 }

@@ -12,12 +12,13 @@
   display: flex;
   align-items: center;
   width: 100%;
-  box-shadow: -1px 1px 2px -1px var(--color-shadow);
+  box-shadow: var(--shadow-bottom);
+  padding: 2px;
   opacity: 0.5;
 
   &__field {
     width: 100%;
-    padding: 15px;
+    padding: 16px;
     color: var(--color-grey-light);
   }
 

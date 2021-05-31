@@ -1,0 +1,16 @@
+.form-control {
+  box-shadow: var(--color-shadow);
+
+  &__label {
+    font-size: 12px;
+    text-transform: lowercase;
+    opacity: 0.5;
+    color: var(--color-grey-light)
+  }
+
+  &__field {
+    border: 1px solid var(--color-grey-lighter);
+    padding: 10px;
+    margin-top: 4px;
+  }
+}

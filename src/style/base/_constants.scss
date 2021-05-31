@@ -2,5 +2,10 @@
   --color-border: #eaeaea;
   --color-grey-light: #9a9a9a;
   --color-hover-grey: #a7a7a726;
+  --color-grey-lighter: #f3f3f3;
   --color-shadow: #bbbbbbad;
+  --shadow: 0 0 0 5px 5px var(--color-shadow);
+  --shadow-bottom: 0px -3px 5px -5px var(--color-shadow) inset;
+  --shadow-top: 0px 3px 5px -5px var(--color-shadow) inset;
+  --shadow-left: 3px -5px 5px -5px var(--color-shadow) inset;
 }
